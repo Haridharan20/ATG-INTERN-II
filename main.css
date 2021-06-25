@@ -1,0 +1,872 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.path-slider {
+  position: fixed;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  top: 170px;
+  margin-left: 38%;
+  z-index: 2;
+}
+
+.path-slider._1 {
+  background-color: rgb(100, 17, 169);
+}
+
+.path-slider._2 {
+  background-color: rgb(78, 39, 206);
+}
+.path-slider._3 {
+  background-color: rgb(18, 20, 59);
+}
+.path-slider._4 {
+  background-color: rgb(23, 38, 60);
+}
+
+.path-slider._5 {
+  background-color: rgb(19, 76, 162);
+}
+
+.path-slider._6 {
+  background-color: rgb(2, 43, 146);
+}
+.path-slider._7 {
+  background-color: rgb(1, 130, 77);
+}
+
+.right-side {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.left-side {
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+}
+
+.content {
+  width: 100%;
+}
+
+.content p {
+  margin: 0;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+.right-side {
+  margin-left: 50%;
+  height: 100vh;
+}
+
+.section-1 {
+  height: 100vh;
+  background-color: rgb(205, 203, 207);
+}
+
+.section-img-1 {
+  position: relative;
+}
+
+.section-img-1 .img1 {
+  background-image: url('./images/nexgtv-entertainment-mobile-app-development.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 170px;
+  left: 50px;
+}
+
+.section-img-1 .img2 {
+  background-image: url('./images/nexgtv-mobile-app-ui-design.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 170px;
+  left: 300px;
+}
+
+/* section-2 */
+
+.section-2 {
+  height: 100vh;
+  background-color: rgb(29, 3, 99);
+}
+
+.section-img-2 {
+  position: relative;
+}
+
+.section-img-2 .img1 {
+  background-image: url('./images/veme-blockchain-app-developed.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 260px;
+  left: 100px;
+}
+
+.section-img-2 .img2 {
+  background-image: url('./images/veme-app-ui-design.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 10px;
+  left: 480px;
+}
+
+/* section-3 */
+
+.section-3 {
+  height: 100vh;
+  background-color: rgb(21, 22, 73);
+}
+
+.section-img-3 {
+  position: relative;
+}
+.section-img-3 .img1 {
+  background-image: url('./images/nasa-fitness-tracking-mobile-app.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.section-img-3 .img2 {
+  background-image: url('./images/measure-total-body-weight-through-fitness-app.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+
+/* section-4 */
+
+.section-4 {
+  height: 100vh;
+  background-color: rgb(12, 15, 20);
+}
+
+.section-img-4 {
+  position: relative;
+}
+
+.section-img-4 .bread {
+  background-image: url('./images/dominos-bread.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -80px;
+  left: 580px;
+}
+
+.section-img-4 .img1 {
+  background-image: url('./images/pizza_box.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  right: 459px;
+}
+
+.section-img-4 .img2 {
+  background-image: url('./images/domi-img1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 340px;
+  position: absolute;
+  left: 50px;
+  top: 410px;
+}
+
+.section-img-4 .img3 {
+  background-image: url('./images/ux-strategy-for-mobile-app-devlopment.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+.section-img-4 .bread1 {
+  background-image: url('./images/dominos-bread1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 570px;
+  left: 560px;
+}
+/* section-5 */
+.section-5 {
+  height: 100vh;
+  background-color: rgb(41, 200, 217);
+}
+
+.section-img-5 {
+  position: relative;
+}
+
+.section-img-5 .img1 {
+  background-image: url('./images/karavan-social-networking-app-screen\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 5px;
+  left: 70px;
+}
+
+.section-img-5 .img2 {
+  background-image: url('./images/social-networking-app-case-study.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.section-img-5 .img3 {
+  background-image: url('./images/developers-for-social-media-app.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 150px;
+  left: 520px;
+}
+
+.section-img-5 .img4 {
+  background-image: url('./images/karavan_2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 440px;
+  left: 100px;
+}
+
+.section-img-5 .img5 {
+  background-image: url('./images/karavan-social-networking-app-screen-2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 440px;
+  left: 350px;
+}
+
+.section-6 {
+  height: 100vh;
+  background-image: url('./images/erp-app-development-service.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-7 {
+  height: 100vh;
+  background-color: rgb(1, 183, 106);
+}
+.section-img-7 {
+  position: relative;
+}
+
+.section-img-7 .img1 {
+  background-image: url('./images/melltoo-img1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 230px;
+  left: 350px;
+}
+.section-img-7 .img2 {
+  background-image: url('./images/melltoo-img2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 252px;
+  left: 160px;
+}
+
+.section {
+  display: none;
+  height: 100vh;
+  width: 100%;
+}
+
+.section.one .middle {
+  position: relative;
+  left: 420px;
+  top: 220px;
+  z-index: 5;
+}
+
+.section.two .middle {
+  position: relative;
+  left: 550px;
+  top: 200px;
+  z-index: 5;
+}
+
+.section.three .middle {
+  position: relative;
+  left: 540px;
+  top: 220px;
+  z-index: 5;
+}
+
+.section.four .middle {
+  position: relative;
+  left: 550px;
+  top: 200px;
+  z-index: 5;
+}
+
+.section.five .middle {
+  position: relative;
+  left: 500px;
+  top: 200px;
+  z-index: 5;
+}
+.section.six .middle {
+  position: relative;
+  left: 500px;
+  top: 220px;
+  z-index: 5;
+}
+.section.seven .middle {
+  position: relative;
+  left: 520px;
+  top: 220px;
+  z-index: 5;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.one.active {
+  background-color: rgb(100, 17, 169);
+}
+
+.two.active {
+  background-color: rgb(78, 39, 206);
+}
+.three.active {
+  background-color: rgb(18, 20, 59);
+}
+
+.four.active {
+  background-color: rgb(23, 38, 60);
+}
+
+.five.active {
+  background-color: rgb(19, 76, 162);
+}
+.six.active {
+  background-color: rgb(2, 43, 146);
+}
+.seven.active {
+  background-color: rgb(1, 130, 77);
+}
+
+.one.active .ani-1 {
+  animation: move 0.5s;
+}
+
+.two.active .ani-2 {
+  animation: move 0.5s;
+}
+
+.three.active .ani-3 {
+  animation: move 0.5s;
+}
+
+.four.active .ani-4 {
+  animation: move 0.5s;
+}
+
+.five.active .ani-5 {
+  animation: move 0.5s;
+}
+.six.active .ani-6 {
+  animation: move 0.5s;
+}
+.seven.active .ani-7 {
+  animation: move 0.2s;
+}
+
+.active {
+  display: block;
+}
+
+.one.active .tit-1 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+
+.two.active .tit-2 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+
+.three.active .tit-3 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+.four.active .tit-4 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+.five.active .tit-5 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+.six.active .tit-6 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+.seven.active .tit-7 {
+  position: relative;
+  animation: mymoves 0.2s;
+}
+
+@keyframes move {
+  from {
+    top: 250px;
+  }
+  to {
+    top: 220px;
+  }
+}
+@keyframes mymoves {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 4px;
+  }
+}
+
+/* mobile */
+
+@media (max-width: 567px) {
+  .carousel {
+    height: 100vh;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel .carousel-item {
+    height: 100%;
+  }
+
+  .first {
+    height: 60%;
+    background-color: aquamarine;
+  }
+  .second {
+    height: 40%;
+    background-color: blue;
+    color: white;
+    justify-content: start;
+  }
+  .first-01 {
+    height: 50%;
+    background-color: aquamarine;
+  }
+
+  .second-01 {
+    height: 50%;
+    background-color: blue;
+    color: white;
+    justify-content: start;
+  }
+
+  .text-1 {
+    padding-top: 60px;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+
+  .img-2-1 {
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    bottom: 40%;
+
+    margin-left: -10px;
+    object-fit: cover;
+    object-position: 10% 90px;
+  }
+  .img-2-2 {
+    width: 50%;
+    position: absolute;
+    margin-top: -15px;
+    height: 300px;
+    margin-left: 180px;
+    object-fit: cover;
+    object-position: 0 100%;
+  }
+
+  .pizza {
+    width: 80px;
+    height: 30px;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .vemi-1 {
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 180px;
+  }
+  .vemi-2 {
+    position: absolute;
+    width: 180px;
+    bottom: 40%;
+  }
+
+  .five-1 {
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: -100px;
+  }
+  .five-2 {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    bottom: 40%;
+    left: 0px;
+    object-fit: cover;
+    object-position: 25% 130px;
+  }
+  .five-3 {
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    left: 40%;
+    margin-top: -15px;
+  }
+
+  .five-4 {
+    width: 45%;
+    margin-left: 40%;
+    height: 140px;
+    position: absolute;
+    object-fit: cover;
+    object-position: 25% 60px;
+    bottom: 40%;
+  }
+  .five-5 {
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    left: 81%;
+
+    bottom: 40%;
+  }
+
+  .six {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .first-1 {
+    width: 230px;
+    height: 60%;
+    position: absolute;
+    object-fit: cover;
+    top: -40px;
+    object-position: 78% 110px;
+  }
+
+  .first-2 {
+    width: 230px;
+    height: 57%;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    object-fit: cover;
+    object-position: 35% 50px;
+    z-index: 0;
+  }
+  .first-3 {
+    width: 250px;
+    left: 5%;
+    position: absolute;
+    bottom: 35%;
+    z-index: 2;
+    border: 5px solid purple;
+  }
+
+  .seven-1 {
+    position: absolute;
+    width: 205px;
+    height: 50%;
+    object-position: 25% 150px;
+    left: 180px;
+    z-index: 0;
+  }
+  .seven-2 {
+    position: absolute;
+    width: 205px;
+    height: 50%;
+    left: 35px;
+    z-index: 1;
+    width: 50%;
+    object-position: 25% 120px;
+    bottom: 50%;
+  }
+  .seven-3 {
+    width: 200px;
+    left: 5%;
+    z-index: 2;
+    position: absolute;
+    bottom: 44%;
+  }
+
+  .four-1 {
+    position: absolute;
+    width: 100px;
+    top: -10px;
+  }
+
+  .four-2 {
+    width: 180px;
+    position: absolute;
+    bottom: 40%;
+    object-position: 25% 90px;
+  }
+
+  .four-3 {
+    width: 180px;
+    position: absolute;
+    height: 50%;
+    left: 160px;
+    top: -30px;
+  }
+
+  .four-4 {
+    width: 180px;
+    position: absolute;
+    bottom: 40%;
+    left: 160px;
+    object-position: 25% 50px;
+  }
+
+  .four-5 {
+    width: 100px;
+    position: absolute;
+    right: -50px;
+    top: -100px;
+  }
+
+  .four-6 {
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    right: -50px;
+  }
+
+  .four-7 {
+    width: 100px;
+    position: absolute;
+    bottom: 40%;
+    right: -50px;
+  }
+}
+@media (max-width: 400px) {
+  .first-1 {
+    width: 200px;
+
+    position: absolute;
+    top: -38px;
+    left: -15px;
+  }
+
+  .first-2 {
+    width: 200px;
+
+    position: absolute;
+    right: 10px;
+  }
+  .first-3 {
+    width: 200px;
+  }
+  .seven-1 {
+    position: absolute;
+    width: 190px;
+    height: 50%;
+    object-position: 25% 120px;
+    left: 150px;
+    z-index: 0;
+  }
+
+  .seven-2 {
+    position: absolute;
+    width: 205px;
+    height: 50%;
+    left: 16px;
+    z-index: 1;
+    width: 50%;
+    object-position: 25% 90px;
+    bottom: 50%;
+  }
+
+  .seven-3 {
+    width: 200px;
+    left: 5%;
+    z-index: 2;
+    position: absolute;
+    bottom: 43%;
+  }
+}
+@media (max-width: 320px) {
+  .first-1 {
+    position: absolute;
+
+    right: 150px;
+
+    object-position: 25% 100px;
+    top: -5%;
+  }
+
+  .first-2 {
+    position: absolute;
+  }
+  .first-3 {
+    width: 200px;
+    left: 5%;
+    position: absolute;
+    bottom: 35%;
+  }
+
+  .four-1 {
+    position: absolute;
+    width: 100px;
+    top: -10px;
+  }
+
+  .four-2 {
+    width: 150px;
+    position: absolute;
+    bottom: 40%;
+    object-position: 25% 90px;
+  }
+
+  .four-3 {
+    width: 180px;
+    position: absolute;
+    height: 45%;
+    left: 130px;
+    top: -30px;
+  }
+
+  .four-4 {
+    width: 180px;
+    position: absolute;
+    bottom: 40%;
+    left: 130px;
+    object-position: 25% 50px;
+  }
+
+  .four-5 {
+    width: 100px;
+    position: absolute;
+    right: -50px;
+    top: -100px;
+  }
+
+  .four-6 {
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    right: -60px;
+  }
+
+  .four-7 {
+    width: 100px;
+    position: absolute;
+    bottom: 40%;
+    right: -50px;
+  }
+  .seven-1 {
+    position: absolute;
+    width: 160px;
+    height: 50%;
+    object-position: 25% 120px;
+    left: 140px;
+    z-index: 0;
+  }
+  .seven-2 {
+    position: absolute;
+    width: 205px;
+    height: 50%;
+    left: 19px;
+    z-index: 1;
+    width: 50%;
+    object-position: 25% 90px;
+    bottom: 50%;
+  }
+}
+
+li {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+  background-color: white !important;
+}
